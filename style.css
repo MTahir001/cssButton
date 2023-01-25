@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 body {
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
 
@@ -23,12 +23,12 @@ body {
 
 .container a {
   position: relative;
-  display: inline-block; 
+  display: inline-block;
 
-  height: 60px;
-  width: 160px;
-  margin: 20px;
-  
+  height: 4rem;
+  width: 10rem;
+  margin: 1.25rem;
+
   background: seashell;
 }
 
@@ -63,7 +63,6 @@ body {
 
 .container a span {
   position: absolute;
-  inset: 0;
   z-index: 1;
   overflow: hidden;
 
@@ -88,7 +87,7 @@ body {
 
   height: 100%;
   width: 100%;
-  
+
   background: rgba(255, 255, 255, 0.075);
   transform: skew(30deg);
 }
